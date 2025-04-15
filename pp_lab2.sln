@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pp_lab2", "pp_lab2\pp_lab2.csproj", "{6589AD06-30F1-480F-891D-EC016CA3FDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pp_lab2_maui", "pp_lab2_maui\pp_lab2_maui.csproj", "{4526776B-91D8-49A2-BE8A-D24D98E344BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6589AD06-30F1-480F-891D-EC016CA3FDBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6589AD06-30F1-480F-891D-EC016CA3FDBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6589AD06-30F1-480F-891D-EC016CA3FDBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6589AD06-30F1-480F-891D-EC016CA3FDBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4526776B-91D8-49A2-BE8A-D24D98E344BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4526776B-91D8-49A2-BE8A-D24D98E344BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4526776B-91D8-49A2-BE8A-D24D98E344BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4526776B-91D8-49A2-BE8A-D24D98E344BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86A2EC0A-5BC7-450D-8C8D-9ACF49F7B7AD}
+	EndGlobalSection
+EndGlobal

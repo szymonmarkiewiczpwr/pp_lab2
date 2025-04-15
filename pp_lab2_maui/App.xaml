@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:pp_lab2_maui"
+             x:Class="pp_lab2_maui.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate x:Key="WeatherDataTemplate">
+                <ViewCell>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Base}" FontSize="16" />
+                        <Label Text="{Binding Main.Temp}" FontSize="14" />
+                        <Label Text="{Binding Main.FeelsLike}" FontSize="14" />
+                        <Label Text="{Binding Main.TempMin}" FontSize="14" />
+                        <Label Text="{Binding Main.TempMax}" FontSize="14" />
+                        <Label Text="{Binding Main.Pressure}" FontSize="14" />
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

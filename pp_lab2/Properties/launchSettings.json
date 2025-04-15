@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "pp_lab2": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
